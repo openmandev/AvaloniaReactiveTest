@@ -12,6 +12,6 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Button Content="{Binding ButtonText}" Command="{Binding ButtonCommand}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
 </Window>
