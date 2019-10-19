@@ -11,10 +11,10 @@ namespace AvaloniaReactiveTest.ViewModels
             ButtonCommand = ReactiveCommand.Create(TestClick);
         }
 
-        private void TestClick()
-        {
-            Console.WriteLine("TestClick.");
-        }
+        private void TestClick() => Console.WriteLine("TestClick.");
+        // {
+        //     Console.WriteLine("TestClick.");
+        // }
 
         public string ButtonText => "Click me!";
 
